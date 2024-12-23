@@ -2,7 +2,11 @@ module github.com/MosinEvgeny/authservice
 
 go 1.23.4
 
-require github.com/spf13/viper v1.19.0
+require (
+	github.com/golang-jwt/jwt/v5 v5.2.1
+	github.com/spf13/viper v1.19.0
+	golang.org/x/crypto v0.21.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
